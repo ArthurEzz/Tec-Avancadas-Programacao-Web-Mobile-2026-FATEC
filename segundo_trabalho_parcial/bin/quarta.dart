@@ -8,38 +8,10 @@
 import 'dart:io';
 
 void main() {
-  List<String> Norte = [
-    "Acre",
-    "Amapá",
-    "Amazonas",
-    "Pará",
-    "Rondônia",
-    "Roraima",
-    "Tocantins",
-  ];
-  List<String> Nordeste = [
-    "Alagoas",
-    "Bahia",
-    "Ceará",
-    "Maranhão",
-    "Paraíba",
-    "Pernambuco",
-    "Piauí",
-    "Rio Grande do Norte",
-    "Sergipe",
-  ];
-  List<String> CentroOeste = [
-    "Goiás",
-    "Mato Grosso",
-    "Mato Grosso do Sul",
-    "Distrito Federal",
-  ];
-  List<String> Sudeste = [
-    "Espírito Santo",
-    "Minas Gerais",
-    "Rio de Janeiro",
-    "São Paulo",
-  ];
+  List<String> Norte = ["Acre","Amapá","Amazonas","Pará","Rondônia","Roraima","Tocantins"];
+  List<String> Nordeste = ["Alagoas","Bahia","Ceará","Maranhão","Paraíba","Pernambuco","Piauí","Rio Grande do Norte","Sergipe"];
+  List<String> CentroOeste = ["Goiás","Mato Grosso","Mato Grosso do Sul","Distrito Federal"];
+  List<String> Sudeste = ["Espírito Santo","Minas Gerais","Rio de Janeiro","São Paulo"];
   List<String> Sul = ["Paraná", "Rio Grande do Sul", "Santa Catarina"];
 
   stdout.write("\nQual estado você mora?\n");
