@@ -17,21 +17,21 @@ void main() {
   stdout.write("\n== Lanchonete do Marcelo ==\n");
   stdout.write("101 - Cachorro Quente 14,20 Reais\n");
   stdout.write("102 - Bauru Simples 12,30 Reais\n");
-  stdout.write("103 - Cachorro Quente 13,50 Reais\n");
-  stdout.write("104 - Cachorro Quente 10,20 Reais\n");
-  stdout.write("105 - Cachorro Quente 15,30 Reais\n");
-  stdout.write("106 - Cachorro Quente 10,00 Reais\n");
-  stdout.write("Para escolher seu lanche, basta digitar o código dele:\n");
+  stdout.write("103 - Bauru com Ovo 13,50 Reais\n");
+  stdout.write("104 - Hambúrguer 10,20 Reais\n");
+  stdout.write("105 - Cheeseburger 15,30 Reais\n");
+  stdout.write("106 - Refrigerante 10,00 Reais\n");
+  stdout.write("Para escolher algo no cardápio, basta digitar o código dele:\n");
   String? codigo = stdin.readLineSync();
   if (codigo == null) {
-    stdout.write("Código do lanche inválido\n");
+    stdout.write("Código inválido\n");
     return;
   }
   double codigos = double.tryParse(codigo)!;
   stdout.write('Quantos você vai querer?\n');
   String? quantos = stdin.readLineSync();
   if (quantos == null) {
-    stdout.write("Quantide de lanche inválido\n");
+    stdout.write("Quantide inválido\n");
     return;
   }
   double quantidade = double.tryParse(quantos)!;
